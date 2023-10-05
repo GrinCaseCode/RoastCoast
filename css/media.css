@@ -1115,7 +1115,7 @@ body {
 }
 .video-main__image {
     height: 342px;
-}
+} 
 .sorting-categories__item {
     width: 31%;
     width: calc(33% - 8px);

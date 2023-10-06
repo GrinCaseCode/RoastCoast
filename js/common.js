@@ -18,6 +18,28 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
     $menu.removeClass("fixed").addClass("default");
   }
 
+   $("#modal-registration .btn-main").click(function(e){
+   	e.preventDefault();
+   if ($("#modal-registration .error-form").is(":hidden")) {
+			$("#modal-registration .error-form").fadeIn(0);
+		} else {
+			$.fancybox.open('#successful-registration');
+		}
+  });
+
+   $("#modal-signin .btn-main").click(function(e){
+   	e.preventDefault();
+   if ($("#modal-signin .error-form").is(":hidden")) {
+			$("#modal-signin .error-form").fadeIn(0);
+		} else {
+		}
+  });
+
+$(".close-modal").click(function(e){
+   	e.preventDefault();
+   $.fancybox.close();
+  })
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -43,6 +65,19 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$(".menu__haschild > a").click(function() {
 		$(this).siblings(".menu__dropdown").slideToggle(200);
 		$(this).toggleClass("active");
+	});
+
+	$(".btn-main_add-modal").click(function(e) {
+		e.preventDefault();
+		if ($(this).hasClass("active")) {
+			$(this).removeClass("active");
+			$(this).find("span").html("В КОРЗИНУ");
+			$(".button-basket-hidden").slideUp(200);
+		} else {
+			$(this).addClass("active");
+			$(this).find("span").html("В КОРЗИНЕ");
+			$(".button-basket-hidden").slideDown(200);
+		}
 	});
 
 
@@ -127,6 +162,13 @@ $(".sorting-categories__item").click(function() {
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
+
+	$(".fancybox-auth").fancybox({
+		 beforeShow : function(){
+      $(".fancybox-wrap").addClass("fancybox-page");
+      
+    }
+	});
 
 
 	//Кнопка "Наверх"

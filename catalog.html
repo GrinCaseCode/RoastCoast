@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/swiper/css/scrollbar.css">
+	<link rel="stylesheet" href="libs/swiper/css/style.css">
+	<link rel="stylesheet" href="libs/swiper/css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/modal-video/modal-video.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.11" />
+	<link rel="stylesheet" href="css/media.css?ver=1.11" />
+</head>
+<body>
+
+	<div class="wrapper wrapper_page">
+
+		<header class="header default">
+			<div class="container">
+				<div class="header__wrapper">
+					<a href="#" class="logo">
+						<img src="img/logo.svg" alt="alt">
+					</a>
+					<div class="header__content">
+						<div class="header__top">
+							<div class="location-main">Город: <span>Сыктывкар</span></div>
+							<div class="form-search">
+								<form>
+									<div class="icon-searh"><i class="fas fa-search"></i></div>
+									<input type="text" placeholder="например:  Эспрессо смесь" required="required">
+									<button class="btn-search">Поиск</button>
+								</form>
+							</div>
+							<div class="header__buttons">
+								<a href="#" class="btn-header">
+									<i class="fas fa-star"></i>
+									<span class="btn-header__value">1</span>
+								</a>
+								<a href="#" class="btn-header">
+									<i class="fas fa-shopping-cart"></i>
+									<span class="btn-header__value">8</span>
+								</a>
+							</div>
+							<div class="header__links">
+								<div class="wrap-user">
+									<div class="user-header">
+										<div class="user-header__content">
+											<div class="user-header__name">Ф.С. Киврин</div>
+											<div class="user-header__descr">МОИ НАСТРОЙКИ</div>
+										</div>
+										<div class="user-header__image">
+											<i class="fas fa-user"></i>
+										</div>
+									</div>
+									<div class="dropdown-user">
+										<div class="dropdown-user__title">Аккаунт</div>
+										<ul>
+											<li><a href="#">Редактировать данные</a></li>
+											<li><a href="#">Активные заказы</a></li>
+											<li><a href="#">Избанное</a></li>
+											<li><a href="#">История заказов</a></li>
+											<li><a href="#">Корзина</a></li>
+										</ul>
+									</div>
+									<a href="#" class="link-leave">выход</a>
+								</div>
+							</div>
+						</div>
+						<div class="header__bottom">
+							<ul class="menu">
+								<li class="menu__haschild">
+									<a href="#">Купить</a>
+									<div class="menu__dropdown">
+										<ul>
+											<li>
+												<a href="#">Кофе</a>
+												<ul>
+													<li><a href="#">для эспрессо</a></li>
+													<li><a href="#">для фильтра</a></li>
+													<li><a href="#">в дрип пакетах</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Чай</a></li>
+											<li><a href="#">Аксессуары</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#">Скидки и акции</a></li>
+								<li class="menu__haschild">
+									<a href="#">Условия работы</a>
+									<div class="menu__dropdown">
+										<ul>
+											<li><a href="#">Доставка и оплата</a></li>
+											<li><a href="#">Оптовым покупателям</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="#">О НАС</a></li>
+							</ul>
+							<a href="#" class="btn-text"><strong>•</strong>Заказать звонок <strong>•</strong></a>
+						</div>
+					</div>
+					<div class="header__buttons header__buttons_mobile">
+						<a href="#" class="btn-header">
+							<i class="fas fa-star"></i>
+							<span class="btn-header__value">1</span>
+						</a>
+						<a href="#" class="btn-header">
+							<i class="fas fa-shopping-cart"></i>
+							<span class="btn-header__value">8</span>
+						</a>
+					</div>
+					<span class='sandwich'>
+						<span class='sw-topper'></span>
+						<span class='sw-bottom'></span>
+						<span class='sw-footer'></span>
+					</span>
+				</div>
+				<ul class="socials-header">
+					<li><a href="#"><img src="img/tel.svg" alt="alt"></a></li>
+					<li><a href="#"><img src="img/vk.svg" alt="alt"></a></li>
+					<li><a href="#"><img src="img/inst.svg" alt="alt"></a></li>
+					<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+				</ul>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<div class="fixed-buttons">
+			<a href="#" class="fixed-buttons__call">
+				<img src="img/phone.svg" alt="alt">
+			</a>
+			<ul class="fixed-buttons_socials">
+				<li><a href="#"><img src="img/vk.svg" alt="alt"></a></li>
+				<li><a href="#"><img src="img/inst.svg" alt="alt"></a></li>
+				<li><a href="#"><img src="img/tg.svg" alt="alt"></a></li>
+			</ul>
+		</div>
+
+		<section class="page-catalog">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">ГЛАВНАЯ</a></li>
+					<li><a href="#">Кофе для эспрессо</a></li>
+					<li>Коста-Рика Финка Арекас</li>
+				</ul>
+			</div>
+			<div class="sorting-block">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="title-middle">Кофе:</div>
+							<div class="sorting-main">
+								<div class="sorting-main__item active"><img src="img/ic_sorting_main1.svg" alt="alt">Цена по: убыванию</div>
+								<div class="sorting-main__item"><img src="img/ic_sorting_main2.svg" alt="alt">По названию</div>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="sorting-block__center">
+								<div class="btn-filter"><span>ВСЕ  ФИЛЬТРЫ</span><img src="img/btn_filter.svg" alt="alt"></div>
+								<div class="sorting-statuses">
+									<div class="sorting-statuses__item"><span>ТОЛЬКО НОВОЕ</span><img src="img/ic_sorting_status1.svg" alt="alt"></div>
+									<div class="sorting-statuses__item"><span>ТОЛЬКО С СКИДКАМИ</span><img src="img/ic_sorting_status2.svg" alt="alt"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="sorting-categories">
+								<div class="sorting-categories__item active"><img src="img/ic_sorting_category1.svg" alt="alt"><span>Кофе для эспрессо</span></div>
+								<div class="sorting-categories__item"><img src="img/ic_sorting_category2.svg" alt="alt"><span>Кофе для фильтра</span></div>
+								<div class="sorting-categories__item"><img src="img/ic_sorting_category3.svg" alt="alt"><span>Аксессуары для кофе</span></div>
+								<div class="sorting-categories__item active"><img src="img/ic_sorting_category4.svg" alt="alt"><span>Кофе в дрип-пакетах</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="sorting-block__mobile">
+						<div class="btn-filter"><span>ВСЕ  ФИЛЬТРЫ</span><img src="img/btn_filter.svg" alt="alt"></div>
+					</div>
+					<div class="more-sorting">
+						<div class="row">
+							<div class="col-lg-3">
+								<div class="item-sorting">
+									<div class="item-sorting__title">Страна</div>
+									<div class="item-select item-select_sorting">
+										<select>
+											<option value="1">Буркина-Фасо</option>
+											<option value="1">Буркина-Фасо</option>
+											<option value="1">Буркина-Фасо</option>
+											<option value="1">Буркина-Фасо</option>
+											<option value="1">Буркина-Фасо</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="item-sorting">
+									<div class="item-sorting__title">Обжарка</div>
+									<div class="item-select item-select_sorting">
+										<select>
+											<option value="1">Без обжарки</option>
+											<option value="1">Эспрессо</option>
+											<option value="1">Темная</option>
+											<option value="1">Для фильтра</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row row_catalog">
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>8</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">"SWEET HILLS"</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>852</strong> ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info"> Эспрессо смесь</div>
+							<div class="item-catalog__features">
+								<span>Ягодное варенье</span> 
+								<span>Молочный шоколад</span>
+								<span>Смородина</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>15</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status discount"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">Сальвадор Ла Реформа</a>
+								<div class="item-catalog__prices">
+									<div class="price-main"><strong>444 </strong> ₽</div>
+									<div class="price-old">576 ₽</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Кофе в дрип-пакетах <span>6 шт.</span></div>
+							<div class="item-catalog__features">
+								<span>Ежевика</span> 
+								<span>Маракуйя</span>
+								<span>Алкогольные ноты</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>13</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status new"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog3.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">КОСТА-РИКА ФИНКА АРЕКАС</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>1744</strong> ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Кофе для эспрессо</div>
+							<div class="item-catalog__features">
+								<span>Косточковые фрукты</span> 
+								<span>Красное яблоко</span>
+								<span>Жёлтая груша</span>
+								<span>Сладкие орехи</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>22</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status discount"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog4.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">МОЛОЧНЫЙ УЛУН</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>935</strong> ₽</div>
+									<div class="price-old">от 1265 ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Specialty tea </div>
+							<div class="item-catalog__features">
+								<span>Cливки</span> 
+								<span>Молоко</span>
+								<span>Карамель</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>8</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">"SWEET HILLS"</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>852</strong> ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info"> Эспрессо смесь</div>
+							<div class="item-catalog__features">
+								<span>Ягодное варенье</span> 
+								<span>Молочный шоколад</span>
+								<span>Смородина</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>15</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status discount"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">Сальвадор Ла Реформа</a>
+								<div class="item-catalog__prices">
+									<div class="price-main"><strong>444 </strong> ₽</div>
+									<div class="price-old">576 ₽</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Кофе в дрип-пакетах <span>6 шт.</span></div>
+							<div class="item-catalog__features">
+								<span>Ежевика</span> 
+								<span>Маракуйя</span>
+								<span>Алкогольные ноты</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>13</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status new"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog3.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">КОСТА-РИКА ФИНКА АРЕКАС</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>1744</strong> ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Кофе для эспрессо</div>
+							<div class="item-catalog__features">
+								<span>Косточковые фрукты</span> 
+								<span>Красное яблоко</span>
+								<span>Жёлтая груша</span>
+								<span>Сладкие орехи</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>22</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status discount"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog4.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">МОЛОЧНЫЙ УЛУН</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>935</strong> ₽</div>
+									<div class="price-old">от 1265 ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Specialty tea </div>
+							<div class="item-catalog__features">
+								<span>Cливки</span> 
+								<span>Молоко</span>
+								<span>Карамель</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>8</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog1.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">"SWEET HILLS"</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>852</strong> ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info"> Эспрессо смесь</div>
+							<div class="item-catalog__features">
+								<span>Ягодное варенье</span> 
+								<span>Молочный шоколад</span>
+								<span>Смородина</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>15</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status discount"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog2.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">Сальвадор Ла Реформа</a>
+								<div class="item-catalog__prices">
+									<div class="price-main"><strong>444 </strong> ₽</div>
+									<div class="price-old">576 ₽</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Кофе в дрип-пакетах <span>6 шт.</span></div>
+							<div class="item-catalog__features">
+								<span>Ежевика</span> 
+								<span>Маракуйя</span>
+								<span>Алкогольные ноты</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>13</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status new"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog3.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">КОСТА-РИКА ФИНКА АРЕКАС</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>1744</strong> ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Кофе для эспрессо</div>
+							<div class="item-catalog__features">
+								<span>Косточковые фрукты</span> 
+								<span>Красное яблоко</span>
+								<span>Жёлтая груша</span>
+								<span>Сладкие орехи</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="item-catalog">
+							<a href="#" class="icon-comments">
+								<i class="fas fa-comment"></i>
+								<span>22</span>
+							</a>
+							<ul class="list-status">
+								<li><div class="item-status hot"></div></li>
+								<li><div class="item-status discount"></div></li>
+							</ul>
+							<a href="#" class="item-catalog__image">
+								<img src="img/catalog4.jpg" alt="alt">
+							</a>
+							<div class="item-catalog__top">
+								<a href="#" class="item-catalog__title">МОЛОЧНЫЙ УЛУН</a>
+								<div class="item-catalog__prices">
+									<div class="price-main">от <strong>935</strong> ₽</div>
+									<div class="price-old">от 1265 ₽</div>
+									<div class="descr-price">200 g <span>•</span> 1000 g</div>
+								</div>
+							</div>
+							<div class="item-catalog__info">Specialty tea </div>
+							<div class="item-catalog__features">
+								<span>Cливки</span> 
+								<span>Молоко</span>
+								<span>Карамель</span>
+							</div>
+							<div class="item-catalog__progressbars">
+								<div class="row">
+									<div class="col-6">
+										<div class="title-progressbar">Кислотность</div>
+										<div class="progressbar">
+											<span style="width: 45%;"></span>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="title-progressbar">Плотность</div>
+										<div class="progressbar">
+											<span style="width: 80%;"></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-catalog__bottom">
+								<div class="item-catalog__buttons">
+									<a href="#fast-view" class="btn-main fancybox">БЫТРЫЙ ПРОСМОТР</a>
+									<a href="#" class="btn-star"><i class="fal fa-star"></i></a>
+								</div>
+								<a href="#successfully-addcart" class="btn-main fancybox">В КОРЗИНУ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="navigation-catalog">
+					<div class="btn-main"> <i class="fal fa-chevron-down"></i><span>ПОКАЗАТЬ ЕЩЁ</span> <i class="fal fa-chevron-down"></i></div>
+					<div class="item-number active">1</div>
+					<div class="item-number">2</div>
+					<div class="item-number">3</div>
+					<div class="item-number">4</div>
+					<div class="btn-main"><span>ДАЛЬШЕ</span> <i class="fal fa-chevron-right"></i></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section-text">
+			<div class="about__top">
+				<div class="container">
+					<div class="about__logo">
+						<img src="img/roastcoast2.svg" alt="alt">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="wrapper-text">
+					<div class="row">
+						<div class="col-lg-6 wrapper-text__left">
+							<h2>SEO HEADLINE  </h2>
+							<div class="text-about">
+								<p>Finca Areas — это прекрасная ферма, расположенная в Palmichalde Acosta, там, где регион Central Valley встречается с регионом Tarrazu. Кофе в Arecas растет под тенью разных видов местных деревьев, а река Tabarcia протекает прямо в центре участка, также через всю ферму проходит множество гигантских скал.</p>
+								<p>Владелец фермы — Родольфо Вальверде, был 6-м из 7 сыновей и вырос в бедности.Его родители всегда боролись за его образование: как только ему исполнилось 8 лет, он начал работать на кофейных плантациях во время летних каникул, чтобы накопить денег для покупки школьной формы.</p>
+								<p>Родольфо, всегда был трудолюбивым и любознательным, он приобрел ферму Finca Areas 3 года назад, как только у него появилась возможность начать собственный бизнес. У него особая связь с кофе, и сам он помнит прошлое и всегда повторяет: Кофе дал мне все. Там, где многие обычно терпят неудачу, Родольфо смог создать успешный бизнес и продолжает его успешно развивать, способствуя развитию всего кофейного комьюнити.</p>
+								<p>Finca Areas — это прекрасная ферма, расположенная в Palmichalde Acosta, там, где регион Central Valley встречается с регионом Tarrazu. Кофе в Arecas растет под тенью разных видов местных деревьев, а река Tabarcia протекает прямо в центре участка, также через всю ферму проходит множество гигантских скал.</p>
+								<p>Владелец фермы — Родольфо Вальверде, был 6-м из 7 сыновей и вырос в бедности.Его родители всегда боролись за его образование: как только ему исполнилось 8 лет, он начал работать на кофейных плантациях во время летних каникул, чтобы накопить денег для покупки школьной формы.</p>
+								<p>Родольфо, всегда был трудолюбивым и любознательным, он приобрел ферму Finca Areas 3 года назад, как только у него появилась возможность начать собственный бизнес. У него особая связь с кофе, и сам он помнит прошлое и всегда повторяет: Кофе дал мне все. Там, где многие обычно терпят неудачу, Родольфо смог создать успешный бизнес и продолжает его успешно развивать, способствуя развитию всего кофейного комьюнити.</p>
+							</div>
+							<div class="btn-main"> <i class="fal fa-chevron-down"></i><span>ПОКАЗАТЬ ЕЩЁ</span> <i class="fal fa-chevron-down"></i></div>
+							<br>
+							<br>
+						</div>
+						<div class="col-lg-6">
+							<div class="img-page">
+								<img src="img/img_about1.jpg" alt="alt">
+							</div>
+						</div>
+					</div>
+					<div class="gradient-text"></div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<hr>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-lg col-6">
+								<div class="footer__title">МАГАЗИН:</div>
+								<ul class="footer__nav">
+									<li><a href="#">Кофе</a></li>
+									<li><a href="#">Чай</a></li>
+									<li><a href="#">Аксессуары</a></li>
+								</ul>
+							</div>
+							<div class="col-lg col-6">
+								<div class="footer__title">КОМПАНИЯ:</div>
+								<ul class="footer__nav">
+									<li><a href="#">О нас</a></li>
+									<li><a href="#">Оптовые продажи</a></li>
+									<li><a href="#">Отзывы</a></li>
+								</ul>
+							</div>
+							<div class="col-lg col-6">
+								<div class="footer__title">ПОКУПАТЕЛЮ:</div>
+								<ul class="footer__nav">
+									<li><a href="#">Доставка</a></li>
+									<li><a href="#">Оплата</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-6">
+								<div class="footer__title">МЫ ПРИНИМАЕМ:</div>
+								<ul class="list-icons">
+									<li>
+										<img src="img/ic_payment1.svg" alt="alt">
+									</li>
+									<li>
+										<img src="img/ic_payment2.svg" alt="alt">
+									</li>
+									<li>
+										<img src="img/ic_payment3.svg" alt="alt">
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col_companies">
+						<div class="footer__title">ТРАНСПОРТНЫЕ КОМПАНИИ:</div>
+						<ul class="list-icons">
+							<li>
+								<img src="img/ic_company1.svg" alt="alt">
+							</li>
+							<li>
+								<img src="img/ic_company2.svg" alt="alt">
+							</li>
+							<li>
+								<img src="img/ic_company3.svg" alt="alt">
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__copyright">ВСЕ ПРАВА ЗАЩИЩЕНЫ © 2023 roastcoast <span>*Meta Platforms Inc (Instagram) - является экстремистской организацией и запрещена на территории РФ.</span></div>
+					<div class="footer__create">Разработано в <a href="#">Promoaccent</a></div>
+				</div>
+				<div class="tentacle__footer">
+					<img src="img/tentacle_footer1.svg" alt="alt">
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="fast-view" class="modal-block">
+		<div class="modal-card">
+			<div class="logo-modal">
+				<img src="img/rostcoast.svg" alt="alt">
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="modal-card__image">
+						<a href="#" class="icon-comments">
+							<i class="fas fa-comment"></i>
+							<span>15</span>
+						</a>
+						<ul class="list-status">
+							<li><div class="item-status hot"></div></li>
+							<li><div class="item-status new"></div></li>
+							<li><div class="item-status discount"></div></li>
+						</ul>
+						<img src="img/modal_card1.jpg" alt="alt">
+					</div>
+					<div class="text-card">
+						<p>Finca Areas — это прекрасная ферма, расположенная в Palmichalde Acosta, там, где регион Central Valley встречается с регионом Tarrazu. Кофе в Arecas растет под тенью разных видов местных деревьев, а река Tabarcia протекает прямо в центре участка, также через всю ферму проходит множество гигантских скал. </p>
+						<p>Владелец фермы — Родольфо Вальверде, был 6-м из 7 сыновей и вырос в бедности.Его родители всегда боролись за его образование: как только ему исполнилось 8 лет, он начал работать на кофейных плантациях во время летних каникул, чтобы накопить денег для покупки школьной формы.</p>
+					</div>
+					<div class="modal-card__links">
+						<a href="#">Смотреть комментарии</a>
+						<a href="#">Читать полное описание</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="modal-card__title">КОСТА-РИКА ФИНКА АРЕКАС</div>
+					<div class="modal-card__descr">Кофе для эспрессо</div>
+					<div class="info-card-wrap">
+						<div class="card-features">
+							<span>Косточковые фрукты</span> 
+							<span>Красное яблоко</span>
+							<span>Жёлтая груша</span>
+							<span>Сладкие орехи</span>
+						</div>
+						<div class="card-prices">
+							<div class="price-main">от <strong>544</strong> ₽</div>
+							<div class="price-old"><span>старая цена:</span> от 865 ₽</div>
+						</div>
+					</div>
+					<div class="details-card">
+						<p>Регион: Пальмихаль-де-Акоста Тарразу.</p>
+						<p>Разновидность: красный катуаи, катурра.</p>
+						<p>Способ обработки: мытый.</p>
+					</div>
+					<div class="year-card"><span>2023</span>Урожай</div>
+					<div class="rating-card">
+						<div class="rating-card__item">
+							<div class="rating-card__image">
+								<img src="img/ic_rating1.svg" alt="alt">
+							</div>
+							<div class="rating-card__content">
+								<div class="rating-card__value">84</div>
+								<p>Оценка SCA</p>
+							</div>
+						</div>
+						<div class="rating-card__item">
+							<div class="rating-card__image">
+								<img src="img/ic_rating2.svg" alt="alt">
+							</div>
+							<div class="rating-card__content">
+								<div class="rating-card__value">1700 - 1850 м.</div>
+								<p>Высота произрастания*</p>
+							</div>
+						</div>
+					</div>
+					<div class="rating-descr">*метров над уровнем моря</div>
+					<div class="progressbars-card">
+						<div class="row">
+							<div class="col-6">
+								<div class="title-progressbar">Кислотность</div>
+								<div class="progressbar">
+									<span style="width: 45%;"></span>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="title-progressbar">Плотность</div>
+								<div class="progressbar">
+									<span style="width: 80%;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="selects-card">
+						<div class="row">
+							<div class="col-lg">
+								<div class="title-select">Объем</div>
+								<div class="item-select">
+									<select>
+										<option value="1">200 g.</option>
+										<option value="1">1000 g.</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg">
+								<div class="title-select">Помол</div>
+								<div class="item-select">
+									<select>
+										<option value="1">Не нужен</option>
+										<option value="1">Нужен</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-lg-3">
+								<div class="title-select">Кол-во.</div>
+								<div class="item-select">
+									<select>
+										<option value="1">x 1</option>
+										<option value="1">x 2</option>
+										<option value="1">x 3</option>
+										<option value="1">x 4</option>
+										<option value="1">x 5</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="total-card">
+						<div class="total-card__left">
+							<div class="total-card__title">Выбрано:</div>
+							<p>Объем: 1000 gr;   Помол: Не нужен;   Кол-во: x 1.</p>
+						</div>
+						<div class="total-card__right">
+							<div class="total-card__title">ИТОГО:</div>
+							<div class="total-card__price">2067 ₽</div>
+						</div>
+					</div>
+					<div class="buttons-card">
+						<a href="#" class="btn-main btn-main_add-modal"><span>В КОРЗИНУ</span></a>
+						<a href="#" class="btn-star btn-star_card"><i class="fas fa-star"></i></a>
+					</div>
+					<div class="button-basket-hidden">
+						<a href="#" class="btn-main btn-main_white"><span>ПЕРЕЙТИ В КОРЗИНУ</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="successfully-addcart" class="modal-block">
+		<div class="modal-card">
+			<div class="logo-modal">
+				<img src="img/rostcoast.svg" alt="alt">
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="modal-card__image">
+						<a href="#" class="icon-comments">
+							<i class="fas fa-comment"></i>
+							<span>15</span>
+						</a>
+						<ul class="list-status">
+							<li><div class="item-status hot"></div></li>
+							<li><div class="item-status new"></div></li>
+							<li><div class="item-status discount"></div></li>
+						</ul>
+						<img src="img/modal_card1.jpg" alt="alt">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="modal-card__title">КОСТА-РИКА ФИНКА АРЕКАС</div>
+					<div class="modal-card__descr">Кофе для эспрессо</div>
+					<div class="title-successfully">УСПЕШНО ДОБАВЛЕНО В КОРЗИНУ</div>
+					<div class="total-card">
+						<div class="total-card__left">
+							<div class="total-card__title">Выбрано:</div>
+							<p>Объем: 1000 gr;   Помол: Не нужен;   Кол-во: x 1.</p>
+						</div>
+						<div class="total-card__right">
+							<div class="total-card__title">ИТОГО:</div>
+							<div class="total-card__price">2067 ₽</div>
+						</div>
+					</div>
+					<div class="buttons-successfully">
+						<div class="buttons-card">
+							<a href="#" class="btn-main"><span>ПЕРЕЙТИ В КОРЗИНУ</span></a>
+							<a href="#" class="btn-star btn-star_card"><i class="fas fa-star"></i></a>
+						</div>
+						<a href="#" class="btn-main">ПРОДОЛЖИТЬ ПОКУПКИ</a>
+					</div>
+				</div>
+			</div>
+			<div class="basket-amount">В вашей корзине: <strong>2 товара</strong> </div>
+			<div class="line-basket">
+				<div class="row align-items-center">
+					<div class="col-md-5">
+						<div class="line-basket__title">КОСТА-РИКА ФИНКА АРЕКАС</div>
+					</div>
+					<div class="col-md-5">
+						<div class="line-basket__value"><span>Объем: 1000 gr;</span> <span>Помол: Не нужен;</span><span>Кол-во: x 1.</span></div>
+					</div>
+					<div class="col-md-2">
+						<div class="line-basket__price">2067 ₽</div>
+					</div>
+				</div>
+			</div>
+			<div class="line-basket">
+				<div class="row align-items-center">
+					<div class="col-md-5">
+						<div class="line-basket__title">Сальвадор Ла Реформа</div>
+					</div>
+					<div class="col-md-5">
+						<div class="line-basket__value"><span>В упаковке.: 6 шт;</span> <span>Кол-во x 2.</span></div>
+					</div>
+					<div class="col-md-2">
+						<div class="line-basket__price">1152 ₽</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom-basket">
+				<a href="#" class="btn-main">ОФОРМИТЬ ЗАКАЗ</a>
+				<div class="bottom-basket__total">
+					<div class="bottom-basket__title">ВСЕГО НА СУММУ:</div>
+					<div class="bottom-basket__price">3219 ₽</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal-registration" class="modal-block">
+		<div class="modal-main">
+			<div class="head-modal">
+				<div class="head-modal__logo">
+					<img src="img/logo.svg" alt="alt">
+				</div>
+			</div>
+			<div class="modal-main__title">РЕГИСТРАЦИЯ</div>
+			<form>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="Киврин Фёдор" required="required">
+							<div class="error-form">Ошибка ввода</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="text" placeholder="+ 7 900 123 45 67" class="input-phone" required="required">
+							<div class="error-form">Не верный номер</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="email" placeholder="your-mail@mailservice.ru" required="required">
+							<div class="error-form">Ошибка ввода</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="password" placeholder="*********" required="required">
+							<div class="error-form">Пароль должен содержать как минимум восемь знаков, среди которых есть как прописные, так и строчные буквы</div>
+						</div>
+					</div>
+					<div class="col-md-6 col_checkbox">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" checked="checked" />
+								<span>Я принимаю условия соглашения и даю своё согласие на обработку персональных данных в соответствии с <a href="#">Политикой конфиденциальности</a></span>
+							</label>
+						</div>
+						<div class="error-form">Неоходимо принять пользовательское соглашение</div>
+					</div>
+					<div class="col-md-6">
+						<button class="btn-main">РЕГИСТРАЦИЯ</button>
+						<div class="auth-link">Уже есть аккаунт? <a href="#">ВОЙТИ</a></div>
+					</div>
+				</div>
+			</form>
+			<div class="bottom-logo">
+				<img src="img/roastcoast2.svg" alt="alt">
+			</div>
+			<div class="modal-main__tentacles"></div>
+		</div>
+	</div>
+
+	<div id="successful-registration" class="modal-block">
+		<div class="modal-main">
+			<div class="head-modal">
+				<div class="head-modal__logo">
+					<img src="img/logo.svg" alt="alt">
+				</div>
+			</div>
+			<div class="modal-main__title">РЕГИСТРАЦИЯ</div>
+			<div class="title-successful-registration">РЕГИСТРАЦИЯ УСПЕШНО ЗАВЕРШЕНА</div>
+			<div class="text-successful-registration">На ваш email <strong>yanusnevstruev@niichavo.su</strong> <br>было отправлено псьмо для подтверждения регистрации.</div>
+			<div class="close-modal">ЗАКРЫТЬ ЭТО ОКНО <div class="close-modal__icon"></div></div>
+			<div class="bottom-logo">
+				<img src="img/roastcoast2.svg" alt="alt">
+			</div>
+			<div class="modal-main__tentacles"></div>
+		</div>
+	</div>
+
+	<div id="modal-signin" class="modal-block">
+		<div class="modal-main">
+			<div class="head-modal">
+				<div class="head-modal__logo">
+					<img src="img/logo.svg" alt="alt">
+				</div>
+			</div>
+			<div class="modal-main__title">ВХОД</div>
+			<form>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="email" placeholder="your-mail@mailservice.ru" required="required">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-form">
+							<input type="password" placeholder="*********" required="required">
+						</div>
+					</div>
+					<div class="col-md-6 col_checkbox">
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" required="required" checked="checked" />
+								<span>ЗАПОМНИТЬ МЕНЯ</span>
+							</label>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<button class="btn-main">РЕГИСТРАЦИЯ</button>
+						<div class="auth-link">Забыли пароль? <a href="#">НАПОМНИТЬ</a></div>
+					</div>
+				</div>
+				<div class="error-form">Ошибка, не верный логин или пароль.</div>
+			</form>
+			<div class="bottom-logo">
+				<img src="img/roastcoast2.svg" alt="alt">
+			</div>
+			<div class="modal-main__tentacles"></div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/swiper/js/swiper-bundle.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/modal-video/jquery-modal-video.min.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="js/common.js?ver=1.11"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

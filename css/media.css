@@ -935,7 +935,7 @@ body {
         padding-top: 45px;
         padding-bottom: 110px;
         height: auto;
-        min-height: calc(100vh - 105px);
+        min-height: calc(100vh - 114px);
         display: block;
     }
     .descr-billbord {

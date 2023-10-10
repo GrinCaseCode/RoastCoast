@@ -914,6 +914,9 @@ body {
 .sorting-block__center .sorting-statuses__item {
     margin-right: 20px;
 }
+.page-catalog .breadcrumbs {
+    margin-left: 205px;
+}
 }
 
 /* Medium Devices, Desktops */

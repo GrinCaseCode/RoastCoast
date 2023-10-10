@@ -1211,6 +1211,9 @@ form {
 	border-radius: 2px;
 	background: #FFF;
 }
+.sorting-block .row {
+	align-items: center;
+}
 .sorting-main {
 	display: flex;
 	align-items: center;
@@ -1249,7 +1252,6 @@ form {
 }
 .btn-filter,
 .sorting-statuses__item {
-	margin-top: 6px;
 	opacity: 0.5;
 	display: block;
 	text-align: center;

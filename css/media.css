@@ -1784,6 +1784,7 @@ body {
 .page-card__right .card-features {
     font-size: 12px;
 }
+.rating-card,
 .rating-card__item_year p,
 .card-properties .rating-card {
     font-size: 9px;

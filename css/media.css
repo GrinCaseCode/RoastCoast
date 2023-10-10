@@ -1784,8 +1784,10 @@ body {
 .page-card__right .card-features {
     font-size: 12px;
 }
+.rating-card__item_year p,
 .card-properties .rating-card {
-    font-size: 12px;
+    font-size: 9px;
+    line-height: 140%;
 }
 .slider-reviews .swiper-slide {
     width: 320px;
@@ -1802,7 +1804,21 @@ body {
     max-width: 165px;
 }
 }
-
+@media only screen and (max-width : 420px) {
+.navigation-catalog .btn-main:first-of-type {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.navigation-catalog {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navigation-catalog .btn-main:last-of-type {
+    margin-right: -20px;
+}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 

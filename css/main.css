@@ -1823,6 +1823,7 @@ form {
 .info-card-wrap {
 	display: flex;
 	align-items: flex-start;
+	justify-content: space-between;
 }
 .card-prices {
 	flex: initial;
@@ -3068,4 +3069,21 @@ form {
 .dropdown-user__title {
 	font-size: 14px;
 	padding-bottom: 5px;
+}
+.billbord video {
+	position: absolute;
+	left: 50%; 
+	top: 50%;
+	min-width: 100%; 
+	min-height: 100%; 
+	object-fit: cover;
+	transform: translate(-50%, -50%); 
+}
+.video-billbord {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
 }

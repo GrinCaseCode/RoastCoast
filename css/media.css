@@ -1358,6 +1358,9 @@ body {
     .wrap-user {
         position: relative;
     }
+    .slider-billbord .text-small p br {
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */

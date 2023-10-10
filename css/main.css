@@ -97,14 +97,21 @@ form {
 	padding: 0 12px;
 }
 .billbord {
-	padding-top: 149px;
-	min-height: 960px;
+	height: calc(100vh - 111px);
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
 	color: #ECEFFF;
 	background-image: url(../img/billbord.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	position: relative;
+}
+.slider-billbord:not(.slick-initialized) > li:not(:first-child) {
+  display: none;
 }
 .title-big {
 	font-size: 54px;
@@ -182,8 +189,8 @@ form {
 	z-index: 2;
 }
 .controls-billbord {
-	margin-top: 80px;
-	padding-bottom: 18px;
+	margin-top: 60px;
+	padding-bottom: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
@@ -291,7 +298,7 @@ form {
 	display: block;
 }
 .logo-billbord {
-	margin-top: 68px;
+	margin-top: 55px;
 }
 .btn-video {
 	width: 115px;

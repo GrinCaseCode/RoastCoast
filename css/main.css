@@ -1211,9 +1211,6 @@ form {
 	border-radius: 2px;
 	background: #FFF;
 }
-.sorting-block .row {
-	align-items: center;
-}
 .sorting-main {
 	display: flex;
 	align-items: center;
